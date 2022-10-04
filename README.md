@@ -26,12 +26,13 @@ LACP code 실행을 위해 RTX3090으로 실행하고자 하였으나, LACP의 �
 * tqdm==4.31.1<br>
 
 ### Setup procedure
-1. pyytorch, torchvision 외의 다른 라이브러리를 동일하게 설치해주기 위해 python version은 3.7으로 가상환경을 생성합니다.
+1. pytorch, torchvision 외의 다른 라이브러리를 동일하게 설치해주기 위해 python version은 3.7로 가상환경을 생성합니다.
 2. 다음 코드를 이용하여 생성한 가상환경에 CUDA 11.0에 호환되는 pytorch와 torchvision를 설치합니다.
 ~~~
 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 -f https://download.pytorch.org/whl/torch_stable.html
 ~~~
 3. LACP code의 [requirements.txt](https://github.com/Pilhyeon/Learning-Action-Completeness-from-Points/blob/main/requirements.txt)에서 pytorch와 torchvision을 제외한 나머지 라이브러리를 설치합니다.
+---
 
 ## Experimental result on GPUs
 ## References
