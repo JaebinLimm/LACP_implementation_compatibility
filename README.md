@@ -1,4 +1,4 @@
-# LACP code implementation in RTX3090
+# ~~LACP code implementation in RTX3090~~ ->> about cuda version
 
 ### ~~본 레포지토리는 RTX3090 환경에서의 LACP code 재현성에 대한 과정을 다룹니다.~~<br>
 ~~This repository talks about reproducibility of LACP code in RTX3090.~~
@@ -34,7 +34,7 @@ pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 -f https://download.pyto
 3. LACP code의 [requirements.txt](https://github.com/Pilhyeon/Learning-Action-Completeness-from-Points/blob/main/requirements.txt)에서 pytorch와 torchvision을 제외한 나머지 라이브러리를 설치합니다.
 ---
 
-## Experimental result on GPUs
+## Reproduction 
 ## References
 ## Citation
 
