@@ -1,7 +1,7 @@
 # LACP code implementation in RTX3090
 
-### 본 레포지토리는 RTX3090 환경에서의 LACP code 재현성에 대한 과정을 다룹니다.<br>
-This repository talks about reproducibility of LACP code in RTX3090.
+### ~~본 레포지토리는 RTX3090 환경에서의 LACP code 재현성에 대한 과정을 다룹니다.~~<br>
+~~This repository talks about reproducibility of LACP code in RTX3090.~~
 ## Motivation
 ### Version compatibility check in RTX3090
 LACP code 실행을 위해 RTX3090으로 실행하고자 하였으나, LACP의 경우 CUDA 10.2와 Pytorch 1.6이 권장되어 RTX3090부터는 CUDA 버전이 11.0 이상만 호환이 가능하여 이에 맞는 파이토치 버전을 깔아 줄 필요가 있었습니다.<br>
