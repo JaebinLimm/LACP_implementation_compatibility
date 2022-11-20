@@ -1,11 +1,12 @@
 # ~~LACP code implementation in RTX3090~~ ->> about cuda version
 
-### ~~본 레포지토리는 RTX3090 환경에서의 LACP code 재현성에 대한 과정을 다룹니다.~~<br>
+### ~~본 레포지토리는 RTX3090 환경에서의 LACP code reproducibility에 대한 과정을 다룹니다.~~<br>
 ~~This repository talks about reproducibility of LACP code in RTX3090.~~
 ## Motivation
 ### Version compatibility check in RTX3090
-LACP code 실행을 위해 RTX3090으로 실행하고자 하였으나, LACP의 경우 CUDA 10.2와 Pytorch 1.6이 권장되어 RTX3090부터는 CUDA 버전이 11.0 이상만 호환이 가능하여 이에 맞는 파이토치 버전을 깔아 줄 필요가 있었습니다.<br>
-따라서, python, pytorch, torchvision version만 CUDA 11.0이상에 맞는 버전으로 맞추어 주고 나머지 라이브러리는 동일한 버전을 사용하여 최대한 기존 LACP 권장 환경에 맞게 해주어 실행하였습니다.<br>
+LACP code 실행 중 RTX3090에서는 CUDA 최소 지원 버전과 기존 LACP가 요구하는 pytorch 권장 버전이 달라 다른 pytorch 버전에서 오류 없이 잘 작동되는지 보고자 함<br>
+기존 LACP는 CUDA 10.2와 Pytorch 1.6이 권장되지만 RTX3090부터는 CUDA 버전이 11.0 이상만 호환이 가능하여 이에 맞는 파이토치 버전을 깔아줘야 함.<br>
+따라서, python, pytorch, torchvision version만 CUDA 11.0이상에 맞는 버전으로 맞추어 주고 나머지 라이브러리는 동일한 버전을 사용하여 최대한 기존 LACP 권장 환경에 맞게 해주어 실행하고자 함.<br>
 최종적으로 다른 버전의 python, pytorch, torchvision을 설치하였을 때 LACP code에서 동일한 결과를 보이는지를 알아보고자 합니다.
 
 ## Prerequisites
