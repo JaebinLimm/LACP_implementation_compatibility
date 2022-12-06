@@ -41,7 +41,6 @@ pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 -f https://download.pyto
 ---
 
 ## Reproduction 
-1080ti, titan, RTX 3090-a, RTX 3090-b, A6000-a, A6000-b로 총 6개의 서버로 재현함.
 ## References
 ## Citation
 
