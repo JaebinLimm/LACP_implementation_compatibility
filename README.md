@@ -12,7 +12,7 @@ The issue is that RTX 3090 is only compatible with CUDA version 11 or higher.<br
 So I attempted to change pytorch and torchvision that support CUDA version 11 or higher.
 
 ## Prerequisites
-Required an environment's dependecies are as below. <br>
+Required the environment's dependecies are as below. <br>
 (A -> B: A is an officially recommended version, B is a changed version to support CUDA version 11.)
 
 ### Dependencies
