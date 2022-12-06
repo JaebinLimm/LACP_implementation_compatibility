@@ -37,7 +37,7 @@ Required environment's dependecies are as follows. <br>
 ~~~
 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 -f https://download.pytorch.org/whl/torch_stable.html
 ~~~
-3. Install other libraries excepting pytorch and torchvision using [requirements.txt](https://github.com/Pilhyeon/Learning-Action-Completeness-from-Points/blob/main/requirements.txt) of offical LACP code<br>
+3. Install other libraries excepting pytorch and torchvision using [requirements.txt](https://github.com/Pilhyeon/Learning-Action-Completeness-from-Points/blob/main/requirements.txt) of offical LACP code.<br>
 4. Finally, install `conda install protobuf==3.20.*`.<br>
 ---
 
