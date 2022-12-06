@@ -42,16 +42,16 @@ Required environment's dependecies are as follows. <br>
 * tqdm==4.31.1<br>
 
 ### Setup procedure
-1. Crete an environment with python 3.6.
+1. Crete an environment with python 3.6.<br>
  pytorch, torchvision 외의 다른 라이브러리를 동일하게 설치해주기 위해 python version은 3.7로 가상환경을 생성합니다.
-2. Install following code on environment.
+2. Install following code on environment.<br>
  다음 코드를 이용하여 생성한 가상환경에 CUDA 11.0에 호환되는 pytorch와 torchvision를 설치합니다.
 ~~~
 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 -f https://download.pytorch.org/whl/torch_stable.html
 ~~~
-3. Install other libraries excepting pytorch and torchvision using [requirements.txt](https://github.com/Pilhyeon/Learning-Action-Completeness-from-Points/blob/main/requirements.txt) of offical LACP code
+3. Install other libraries excepting pytorch and torchvision using [requirements.txt](https://github.com/Pilhyeon/Learning-Action-Completeness-from-Points/blob/main/requirements.txt) of offical LACP code<br>
  LACP code의 [requirements.txt](https://github.com/Pilhyeon/Learning-Action-Completeness-from-Points/blob/main/requirements.txt)에서 pytorch와 torchvision을 제외한 나머지 라이브러리를 설치합니다.
-4. Finally, install `conda install protobuf==3.20.*`.
+4. Finally, install `conda install protobuf==3.20.*`.<br>
 마지막으로 `conda install protobuf==3.20.*`를 설치합니다.	
 ---
 
