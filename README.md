@@ -42,10 +42,10 @@ A->B: A는 공식적으로 권장되는 버전이고, B는 CUDA 버전 11 이상
 * tqdm==4.31.1<br>
 
 ### Setup procedure
-1. pytorch, torchvision 외의 다른 라이브러리를 동일하게 설치해주기 위해 python version은 3.7로 가상환경을 생성합니다.
-1. First, crete an environment with python 3.6
+1. pytorch, torchvision 외의 다른 라이브러리를 동일하게 설치해주기 위해 python version은 3.7로 가상환경을 생성합니다.<br>
+First, crete an environment with python 3.6
 2. 다음 코드를 이용하여 생성한 가상환경에 CUDA 11.0에 호환되는 pytorch와 torchvision를 설치합니다.
-3. Install following code on environment.
+2. Install following code on environment.
 ~~~
 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 -f https://download.pytorch.org/whl/torch_stable.html
 ~~~
