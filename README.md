@@ -1,8 +1,8 @@
 
 
-# LACP code execution about cuda version
+# LACP code execution issue about CUDA version
 
-**I talk about [LACP](https://github.com/Pilhyeon/Learning-Action-Completeness-from-Points) (Learning Action Completeness from Points for Weakly-supervised Temporal Action Localization (ICCV 2021 Oral)) code execution about different cuda version.**
+**I talk about [LACP](https://github.com/Pilhyeon/Learning-Action-Completeness-from-Points) (Learning Action Completeness from Points for Weakly-supervised Temporal Action Localization (ICCV 2021 Oral)) code execution about different CUDA version.**
 
 
 ## Motivation
@@ -22,8 +22,8 @@ And I check
 ## Prerequisites
 요구되는 가상환경 디펜던시는 다음과 같음.<br>
 Required environment's dependecies are as follows. <br>
-**A -> B: A is an officially recommended version, B is a changed version to support CUDA version 11.**<br>
-A->B: A는 공식적으로 권장되는 버전이고, B는 CUDA 버전 11 이상에 호환되기 위해 바꾸어준 버전이다.
+**(A -> B: A is an officially recommended version, B is a changed version to support CUDA version 11.)**<br>
+**(A->B: A는 공식적으로 권장되는 버전이고, B는 CUDA 버전 11 이상에 호환되기 위해 바꾸어준 버전이다.)**
 
 ### Dependencies
 * python == 3.6 &#8594; **3.7**<br>
