@@ -16,8 +16,7 @@ Required environment's dependecies are as follows. <br>
 **(A -> B: A is an officially recommended version, B is a changed version to support CUDA version 11.)**
 
 ### Dependencies
-* python == 3.6 &#8594; **3.7**<br>
-* cuda==10.2 &#8594; **>=11.0**<br>
+* python == 3.6
 * joblib==0.13.0<br>
 * numpy==1.18.0<br>
 * pandas==1.1.4<br>
@@ -38,7 +37,6 @@ Required environment's dependecies are as follows. <br>
 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 -f https://download.pytorch.org/whl/torch_stable.html
 ~~~
 3. Install other libraries excepting pytorch and torchvision using [requirements.txt](https://github.com/Pilhyeon/Learning-Action-Completeness-from-Points/blob/main/requirements.txt) of offical LACP code.<br>
-4. Finally, install `conda install protobuf==3.20.*`.<br>
 ---
 
 ## Reproduction 
