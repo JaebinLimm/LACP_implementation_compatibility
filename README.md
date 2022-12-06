@@ -7,8 +7,8 @@
 
 ## Motivation
 ### Run LACP code on RTX3090
-I had tried to run official LACP code on RTX3090, but faced a CUDA compatility issue.
-The issue is that RTX 3090 is only compatible with CUDA version 11 or higher.
+I had tried to run official LACP code on RTX3090, but faced a CUDA compatility issue.<br>
+The issue is that RTX 3090 is only compatible with CUDA version 11 or higher.<br>
 So I attempted to change pytorch and torchvision that support CUDA version 11 or higher.
 
 ## Prerequisites
