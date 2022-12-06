@@ -32,7 +32,7 @@ Required environment's dependecies are as follows. <br>
 
 ### Setup procedure
 1. Crete an environment with python 3.6.<br>
-2. Install following code on environment.<br>
+2. Install pytorch and torchvision on environment by writing following code.<br>
 ~~~
 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 -f https://download.pytorch.org/whl/torch_stable.html
 ~~~
@@ -42,6 +42,5 @@ pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 -f https://download.pyto
 ## Reproduction 
 ## References
 ## Citation
-
 
 **수정중...**
