@@ -2,7 +2,7 @@
 
 # LACP code execution issue about CUDA version
 
-**I talk about [LACP](https://github.com/Pilhyeon/Learning-Action-Completeness-from-Points) (Learning Action Completeness from Points for Weakly-supervised Temporal Action Localization (ICCV 2021 Oral)) code execution about different CUDA version.**
+**I talk about [LACP](https://github.com/Pilhyeon/Learning-Action-Completeness-from-Points) (Learning Action Completeness from Points for Weakly-supervised Temporal Action Localization (ICCV 2021 Oral)) code implementation about different CUDA version.**
 
 
 ## Motivation
